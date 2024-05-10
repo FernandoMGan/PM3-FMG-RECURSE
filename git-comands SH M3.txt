@@ -1,0 +1,22 @@
+cd C:\Home\Developing\PM3-FMG-RECURSE
+git add .
+git commit -m "xx"
+git push https://github.com/pi-rym/PM3-FernandoMGan.git
+git push https://github.com/FernandoMGan/PM3-FMG-RECURSE.git
+
+
+
+Data segun github
+
+…or create a new repository on the command line
+echo "# PM3-FMG-RECURSE" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/FernandoMGan/PM3-FMG-RECURSE.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/FernandoMGan/PM3-FMG-RECURSE.git
+git branch -M main
+git push -u origin main
